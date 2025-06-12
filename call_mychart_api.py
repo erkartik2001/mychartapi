@@ -6,9 +6,9 @@ import json
 
 app = Flask(__name__)
 
-CLIENT_ID = "83b342ad-f838-4582-8418-407a2e4095eb" # Production CLient ID
-CLIENT_SECRET = "sIvnMFJPPTZEz/dMpvAfYPJuniDmYC1lusCjXaIkOf1+NuzNinYMrKZUDqR3JPq29UDUSCPv70Oq63D4aXIRwA=="
-REDIRECT_URI = "https://localhost:5000/callback"
+CLIENT_ID = 
+CLIENT_SECRET = 
+REDIRECT_URI = 
 AUTHORIZATION_URL = 'https://fhir.epic.com/interconnect-fhir-oauth/oauth2/authorize'
 TOKEN_URL = 'https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token'
 BASE_API_URL = 'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/'
